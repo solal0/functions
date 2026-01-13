@@ -9,3 +9,5 @@ GUI = {
     BONEESP = {"Toggle", "Bone ESP", "bone.lua", false},
   },
 }
+
+return GUI
