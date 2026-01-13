@@ -1,3 +1,3 @@
-function()
-  return LocalPlayer():Health()
-end)
+return function()
+    print("Health display updated")
+end
