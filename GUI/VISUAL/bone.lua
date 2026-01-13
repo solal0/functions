@@ -1,3 +1,3 @@
-function(v)
-  print("BoneESP:", v)
+return function(state)
+    print("Bone ESP toggled:", state)
 end
