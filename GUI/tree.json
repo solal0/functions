@@ -5,7 +5,7 @@ GUI = {
     THIRDPERSON = {"Toggle", "ThirdPerson", false}
   },
   VISUAL = {
-    ESP = {"Option", "ESP", "OFF", {"OFF", "Players", "Props", "All"}}
+    ESP = {"Option", "ESP", "OFF", {"OFF", "Players", "Props", "All"}},
     BONEESP = {"Toggle", "Bone ESP", false}
   }
 }
