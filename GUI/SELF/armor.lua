@@ -1,3 +1,3 @@
 return function()
-    print("Health display updated")
+    print("Armor display updated")
 end
