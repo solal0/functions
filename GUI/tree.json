@@ -1,13 +1,13 @@
 GUI = {
-  SELF = {
-    HEALTH = {"Display", "Health", "health.lua", 0},
-    ARMOR = {"Display", "Armor", "armor.lua", 0},
-    THIRDPERSON = {"Toggle", "ThirdPerson", "3rdperson.lua", false},
-  },
-  VISUAL = {
-    ESP = {"Option", "ESP", "esp.lua", "OFF"},
-    BONEESP = {"Toggle", "Bone ESP", "bone.lua", false},
-  },
+    SELF = {
+        HEALTH = {"Display", "Health", "health.lua", 0},
+        ARMOR = {"Display", "Armor", "armor.lua", 0},
+        THIRDPERSON = {"Toggle", "ThirdPerson", "3rdperson.lua", false},
+    },
+    VISUAL = {
+        ESP = {"Option", "ESP", "esp.lua", "OFF", {"OFF","Players","Props","All"}},
+        BONEESP = {"Toggle", "Bone ESP", "bone.lua", false},
+    },
 }
 
 return GUI
