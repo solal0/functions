@@ -1,3 +1,3 @@
-function(v)
-  print("ESP:", v)
+return function(option)
+    print("ESP option set to:", option)
 end
