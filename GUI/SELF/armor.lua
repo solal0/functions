@@ -1,3 +1,3 @@
-function()
-  return LocalPlayer():Armor()
-end)
+return function()
+    print("Health display updated")
+end
