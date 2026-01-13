@@ -1,11 +1,11 @@
 GUI = {
   SELF = {
-    HEALTH = {"Display", "Health", 0},
-    ARMOR = {"Display", "Armor", 0},
-    THIRDPERSON = {"Toggle", "ThirdPerson", false},
+    HEALTH = {"Display", "Health", "health.lua", 0},
+    ARMOR = {"Display", "Armor", "armor.lua", 0},
+    THIRDPERSON = {"Toggle", "ThirdPerson", "3rdperson.lua", false},
   },
   VISUAL = {
-    ESP = {"Option", "ESP", "OFF"},
-    BONEESP = {"Toggle", "Bone ESP", false},
+    ESP = {"Option", "ESP", "esp.lua", "OFF"},
+    BONEESP = {"Toggle", "Bone ESP", "bone.lua", false},
   },
 }
