@@ -2,10 +2,10 @@ GUI = {
   SELF = {
     HEALTH = {"Display", "Health", 0},
     ARMOR = {"Display", "Armor", 0},
-    THIRDPERSON = {"Toggle", "ThirdPerson", false}
+    THIRDPERSON = {"Toggle", "ThirdPerson", false},
   },
   VISUAL = {
     ESP = {"Option", "ESP", "OFF", {"OFF", "Players", "Props", "All"}},
-    BONEESP = {"Toggle", "Bone ESP", false}
-  }
+    BONEESP = {"Toggle", "Bone ESP", false},
+  },
 }
