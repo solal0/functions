@@ -2,12 +2,22 @@ GUI = {
     SELF = {
         HEALTH = {"Display", "Health", "health.lua", 0},
         ARMOR = {"Display", "Armor", "armor.lua", 0},
-        THIRDPERSON = {"Toggle", "ThirdPerson", "3rdperson.lua", false},
+        THIRDPERSON = {"Toggle", "Third Person", "3rdperson.lua", false},
     },
+
     VISUAL = {
-        ESP = {"Option", "ESP", "esp.lua", "OFF", {"OFF","Players","Props","All"}},
+        ESP = {"Option", "ESP", "esp.lua", "OFF", {"OFF", "Players", "Props", "All"}},
         BONEESP = {"Toggle", "Bone ESP", "bone.lua", false},
     },
+
+    TEST = {
+        TEST_TOGGLE = {"Toggle", "Toggle Test", "toggle.lua", false},
+        TEST_VALUE = {"Value", "Value Test", "value.lua", 5},
+        TEST_TEXT = {"Text", "Text Test", "text.lua", "hello"},
+        TEST_OPTION = {"Option", "Option Test", "option.lua", "A", {"A", "B", "C", "D"}},
+        TEST_DEFAULT = {"Default", "Default Test", "default.lua", nil},
+        TEST_DISPLAY = {"Display", "Display Test", "display.lua", "waiting..."}
+    }
 }
 
 return GUI
