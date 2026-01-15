@@ -5,6 +5,17 @@ GUI = {
         THIRDPERSON = {"Toggle", "Third Person", "3rdperson.lua", false},
     },
 
+    PLAYERS = {
+        PLAYERLIST = {"Option", "Players", "list.lua", "None", {"A", "B", "C", "D"}},
+        STEAMID = {"Display", "STEAMID", "IDgrab.lua", "nil"},
+        HEALTH = {"Display", "Health", "Hgrab.lua", 0},
+        ARMOR = {"Display", "Armor", "Agrab.lua", 0},
+        TEAM = {"Display", "Team", "Tgrab.lua", "nil"},
+        POSITION = {"Display", "Position", "Pgrab.lua", "0, 0, 0"},
+        ESP = {"Option", "ESP", "esp.lua", "OFF", {"OFF", "Square", "Skeleton", "Both"}},
+        SPECTATE = {"Toggle", "Spectate", "spec.lua", false},
+    },
+
     VISUAL = {
         ESP = {"Option", "ESP", "esp.lua", "OFF", {"OFF", "Players", "Props", "All"}},
         BONEESP = {"Toggle", "Bone ESP", "bone.lua", false},
