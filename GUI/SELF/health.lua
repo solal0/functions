@@ -1,3 +1,5 @@
-return function()
-    print("Health display updated")
+return function(node)
+    local ply = LocalPlayer()
+    if not IsValid(ply) then return end
+    node.value = ply:Health()
 end
